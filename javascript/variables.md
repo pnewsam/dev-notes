@@ -1,4 +1,4 @@
-# Keywords
+# Variables
 
 ## var, let, const
 

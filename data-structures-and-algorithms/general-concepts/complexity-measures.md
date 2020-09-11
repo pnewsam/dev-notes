@@ -6,7 +6,7 @@
 
 A function `f(n)` is considered `O(g(n))`, if there exists some positive real constant `c` and an integer `n`<sub>`0`</sub>​` > 0`, such that the following inequality holds for all `n`<sub>`0`</sub>` ≥ n`.
 
-![Big O](./big-o.png)
+![Big O](./assets/big-o.png)
 
 ### Overview
 
@@ -25,19 +25,15 @@ A function `f(n)` is considered `O(g(n))`, if there exists some positive real co
 | 11. `e`<sup>`n`</sup>     | Exponential  |
 | 11. `n!`                  | n-Factorial  |
 
-
-
-
 ![Common Scenarios](common-scenarios.png)
 
 ### Big Omega
 
 A function `f(n)` is in `Ω(g(n))` if there exists a real constant `c > 0` and there exists `n`<sub>`o`</sub>` > 0` such that `f(n) >= cg(n)` for `n >= no`.
 
-In other words, *for sufficiently large values of `n`, `f(n)` will grow at least as fast as `g(n)`*.
+In other words, _for sufficiently large values of `n`, `f(n)` will grow at least as fast as `g(n)`_.
 
-![Big Omega](./big-omega.png)
-
+![Big Omega](./assets/big-omega.png)
 
 ### Big Theta
 
@@ -56,8 +52,7 @@ True (because >= and <=)
 n^2 ∈ Θ(n)
 False (because n^2 will overtake n)
 
-![Big Theta](./big-theta.png)
-
+![Big Theta](./assets/big-theta.png)
 
 ## Common Complexity Scenarios
 
@@ -119,7 +114,6 @@ for (var i=0; i<n; i++){
 ```
 
 Running time complexity: `O(n)`
-
 
 ### Loops with log(n) time complexity
 
