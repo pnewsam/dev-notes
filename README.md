@@ -1,32 +1,33 @@
-# **Study Notes**
+# Study Notes
 
 A repository for my study notes. Some of the pages use MermaidJS syntax. To view the graphs in Github you will need to install the [Github MermaidJS Extension](https://github.com/BackMarket/github-mermaid-extension).
 
-## **Table of Contents**
+## Computer Science
 
-### **I. AWS**
+### Data Structures and Algorithms
 
-- [EC2](aws/ec2.md)
+- [Complexity Measures](Computer-Science/Data-Structures-and-Algorithms/complexity-measures.md)
+- [Heapsort](Computer-Science/Data-Structures-and-Algorithms/heapsort.md)
+- [Greedy](Computer-Science/Data-Structures-and-Algorithms/greedy.md)
 
-### **II. Data Structures and Algorithms**
+## Security
 
-#### General Concepts
+- [Security](Security/security.md)
 
-- [Complexity Measures](data-structures-and-algorithms/general-concepts/complexity-measures.md)
+## Programming Languages
 
-#### Sorting Algorithms
+### Javascript
 
-- [Heapsort](data-structures-and-algorithms/sorting-algorithms/heapsort.md)
+- [Arrays](Programming-Languages/Javascript/arrays.md)
+- [Variables](Programming-Languages/Javascript/variables.md)
 
-#### Algorithm Strategies
+## Technologies
 
-- [Greedy](data-structures-and-algorithms/algorithm-strategies/greedy.md)
+### AWS
 
-### **III. Javascript**
+- [EC2](Technologies/aws.md)
 
-- [Arrays](javascript/arrays.md)
-- [Variables](javascript/variables.md)
+## Coursework
 
-### **IV. Security**
-
-- [Security](security/security.md)
+- [UCSDX - Discrete Math](Coursework/UCSDX-Discrete-Math/lectures.md)
+- [UCSDX - C/C++](Coursework/UCSDX-C/C++-I/lectures.md)
