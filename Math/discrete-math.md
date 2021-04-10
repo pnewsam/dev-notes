@@ -1,4 +1,4 @@
-# Lesson 1 - Logic
+# Logic
 
 ## Definitions
 
