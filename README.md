@@ -16,6 +16,13 @@ A repository for my study notes. Some of the pages use MermaidJS syntax. To view
 
 ## Programming Languages
 
+### C++
+
+- [Console IO](Programming-Languages/C-C++/console-io.md)
+- [Operators](Programming-Languages/C-C++/operators.md)
+- [Main Function](Programming-Languages/C-C++/main-fn.md)
+- [Number Types](Programming-Languages/C-C++/number-types.md)
+
 ### Javascript
 
 - [Arrays](Programming-Languages/Javascript/arrays.md)
