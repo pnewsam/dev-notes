@@ -1,4 +1,4 @@
-# EC2
+# AWS
 
 ## How to Install Node App on EC2 Instance
 

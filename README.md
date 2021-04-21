@@ -10,9 +10,10 @@ A repository for my study notes. Some of the pages use MermaidJS syntax. To view
 - [Heapsort](Computer-Science/Data-Structures-and-Algorithms/heapsort.md)
 - [Greedy](Computer-Science/Data-Structures-and-Algorithms/greedy.md)
 
-## Security
+## Math
 
-- [Security](Security/security.md)
+- [Algebra](Math/algebra.md)
+- [Discrete Math](Math/discrete-math.md)
 
 ## Programming Languages
 
@@ -28,13 +29,12 @@ A repository for my study notes. Some of the pages use MermaidJS syntax. To view
 - [Arrays](Programming-Languages/Javascript/arrays.md)
 - [Variables](Programming-Languages/Javascript/variables.md)
 
+## Security
+
+- [Security](Security/security.md)
+
 ## Technologies
 
 ### AWS
 
 - [EC2](Technologies/aws.md)
-
-## Coursework
-
-- [UCSDX - Discrete Math](Coursework/UCSDX-Discrete-Math/lectures.md)
-- [UCSDX - C/C++](Coursework/UCSDX-C/C++-I/lectures.md)
