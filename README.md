@@ -1,40 +1,166 @@
-# Study Notes
+# Self Learning
 
-A repository for my study notes. Some of the pages use MermaidJS syntax. To view the graphs in Github you will need to install the [Github MermaidJS Extension](https://github.com/BackMarket/github-mermaid-extension).
+A repository tracking self-learning. Some of the pages use MermaidJS syntax. To view the graphs in Github you will need to install the [Github MermaidJS Extension](https://github.com/BackMarket/github-mermaid-extension).
 
-## Computer Science
+## Guiding Principles
 
-### Data Structures and Algorithms
+1. Focus as much as possible on _high level learning_. Skills and tooling will be learned on the job.
+2. Leverage degrees/certificates to force commitment.
+
+## Learning Plan 2021
+
+### Priorities
+
+<span style="display: inline-block; background-color: #FF5733">High Priority<span>
+<span style="display: inline-block; background-color: #FF9900">Medium Priority<span>
+<span style="display: inline-block; background-color: #FFC300">Low Priority<span>
+
+<table>
+  <thead>
+    <tr>
+      <th>Priority</th>
+      <th>Goal</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Keep current on in-demand frontend skills.</td>
+    <td>
+      <ul>
+        <li><mark style="display: inline-block; background-color: #FF9900">
+        Create and deploy a side-project that uses React (Hooks, Context, other modern APIs), Next.js, Typescript, Cypress, and React Testing Library.</mark></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Harden <a href="https://teachyourselfcs.com/#programming">programming</a> and <a href="https://teachyourselfcs.com/#algorithms">data structures/algorithms</a> fundamentals.</td>
+    <td>
+      <ul>
+        <li><mark style="background-color: #FF5733">Study <a href="https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202">Algorithm Design Manual</a>, write up notes on algos, & complete 100 <a href="https://leetcode.com/">Leetcode</a> problems</mark>.</li>
+        <li>Read first 2 chapters of <a href="https://www.amazon.com/Structure-Interpretation-Computer-Programs-Engineering/dp/0262510871">Structure and Interpretation of Computer Programs</a> and do exercises.</li>
+        <li>Complete 3 sections of UCSDX C/C++ Programming Specialization.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+      <td>Deepen knowledge of system design.</td>
+    <td>
+      <ul>
+        <li><mark style="background-color: #FF5733">Work through <a href="https://github.com/donnemartin/system-design-primer">System Design Primer</a></mark>.
+        </li>
+        <li><mark style="display: inline-block; background-color: #FF9900">
+        Acquire <a href="https://aws.amazon.com/certification/certified-developer-associate/">AWS Solutions Architect Associate certification</a>. Study with <a href="https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/">Udemy course</a></mark></li>
+        <li>Read <a href="https://www.amazon.com/gp/product/1449373321/ref=ox_sc_act_title_1?smid=A24MD290FB4S49&psc=1">Designing Data-Intensive Applications</a>.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Learn basics of Computer Networking.</td>
+    <td>
+      <ul>
+        <li><mark style="background-color: #FF5733">Take Google's <a href="https://www.coursera.org/learn/computer-networking#syllabus">The Bits and Bytes of Computer Networking</a> Coursera course</mark>.
+        </li>
+        <li>Read MDN Docs on <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP">HTTP</a></li>
+      </ul>
+    </td>
+    </tr>
+  
+  <tr>
+    <td>Learn basics of business finance and financial markets.</td>
+    <td>
+      <ul>
+        <li>Take <a href="https://www.coursera.org/learn/financial-markets-global#syllabus">Financial Markets</a> coursera course.
+        </li>
+        <li>Take <a href="https://www.edx.org/professional-certificate/wharton-strategic-management">Professional Certificate in
+Strategic Management</a> edX course.
+        </li>
+      </ul>
+    </td>
+    </tr>
+  </tbody>
+</table>
+
+### Schedule
+
+<table>
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Goal</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr><td>...</td><td></td></tr>
+  <tr>
+    <td>5 - May</td>
+    <td></td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>6 - June</td><td></td>
+  </tr>
+    <tr>
+    <td>7 - July</td><td></td>
+  </tr>
+    <tr>
+    <td>8 - August</td><td></td>
+  </tr>
+    <tr>
+    <td>9 - September</td><td></td>
+  </tr>
+  </tr>
+    <tr>
+    <td>10 - October</td><td></td>
+  </tr>
+  </tr>
+    <tr>
+    <td>11 - November</td><td></td>
+  </tr>
+  </tr>
+    <tr>
+    <td>12 - December</td><td></td>
+  </tr>
+  </tbody>
+</table>
+
+<br />
+<br />
+
+## Study Notes
+
+### Computer Science
+
+#### Data Structures and Algorithms
 
 - [Complexity Measures](Computer-Science/Data-Structures-and-Algorithms/complexity-measures.md)
 - [Heapsort](Computer-Science/Data-Structures-and-Algorithms/heapsort.md)
 - [Greedy](Computer-Science/Data-Structures-and-Algorithms/greedy.md)
 
-## Math
+### Math
 
 - [Algebra](Math/algebra.md)
 - [Discrete Math](Math/discrete-math.md)
 
-## Programming Languages
+### Programming Languages
 
-### C++
+#### C++
 
 - [Console IO](Programming-Languages/C-C++/console-io.md)
 - [Operators](Programming-Languages/C-C++/operators.md)
 - [Main Function](Programming-Languages/C-C++/main-fn.md)
 - [Number Types](Programming-Languages/C-C++/number-types.md)
 
-### Javascript
+#### Javascript
 
 - [Arrays](Programming-Languages/Javascript/arrays.md)
 - [Variables](Programming-Languages/Javascript/variables.md)
 
-## Security
+### Security
 
 - [Security](Security/security.md)
 
-## Technologies
+### Technologies
 
-### AWS
+#### AWS
 
 - [EC2](Technologies/aws.md)
