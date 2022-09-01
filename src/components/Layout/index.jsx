@@ -1,21 +1,22 @@
+import styled from "styled-components";
 import React from "react";
 import SideNav from "../SideNav";
 
+const Wrapper = styled.div`
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  min-height: 100vh;
+`;
+
 export const Layout = ({ children }) => (
-  <div
-    style={{
-      display: "grid",
-      gridTemplateColumns: "180px 1fr",
-      minHeight: "100vh",
-    }}
-  >
-    <SideNav></SideNav>
+  <Wrapper>
+    <SideNav />
     <main>
       <section className="section">
         <div className="content">{children}</div>
       </section>
     </main>
-  </div>
+  </Wrapper>
 );
 
 export default Layout;
