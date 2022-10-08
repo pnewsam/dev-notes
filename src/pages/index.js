@@ -5,10 +5,12 @@ import Layout from "components/Layout";
 
 const IndexPage = () => {
   return (
-    <Layout>
+    // <Layout>
+    <>
       <title>Home Page</title>
       <h1>Home</h1>
-    </Layout>
+    </>
+    // </Layout>
   );
 };
 

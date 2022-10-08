@@ -42,7 +42,7 @@ const SideNav = () => (
       return (
         <Aside>
           {Object.entries(formattedNodes).map(([folder, paths]) => (
-            <>
+            <React.Fragment key={folder}>
               <h4>{folder.split("-").map(capitalize).join(" ")}</h4>
               <menu>
                 {paths.map(({ id, path, label }) => (
@@ -53,7 +53,7 @@ const SideNav = () => (
                   </li>
                 ))}
               </menu>
-            </>
+            </React.Fragment>
           ))}
         </Aside>
       );
