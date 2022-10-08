@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import React from "react";
+import { Helmet } from "react-helmet";
 import SideNav from "../SideNav";
 
 const Wrapper = styled.div`
@@ -8,15 +9,29 @@ const Wrapper = styled.div`
   min-height: 100vh;
 `;
 
+const Section = styled.section`
+  padding: 40px;
+`;
+
 export const Layout = ({ children }) => (
-  <Wrapper>
-    <SideNav />
-    <main>
-      <section className="section">
-        <div className="content">{children}</div>
-      </section>
-    </main>
-  </Wrapper>
+  <>
+    <Helmet>
+      <title>{"My Website"}</title>
+      <meta name="description" content={""} />
+      <link
+        rel="stylesheet"
+        href="https://d162l99amukxws.cloudfront.net/style.css"
+      />
+    </Helmet>
+    <Wrapper>
+      <SideNav />
+      <main>
+        <Section>
+          <div>{children}</div>
+        </Section>
+      </main>
+    </Wrapper>
+  </>
 );
 
 export default Layout;

@@ -1,3 +1,3 @@
-# Dev Notes
+# Frontend Notes
 
-A collection of notes from learnings in software engineering.
+A collection of notes from learnings in frontend engineering.

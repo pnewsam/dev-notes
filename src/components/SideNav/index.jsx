@@ -19,6 +19,7 @@ const generateNestedPaths = (nodes) =>
   }, {});
 
 const Aside = styled.aside`
+  border-right: solid 1px gainsboro;
   padding: 20px;
 `;
 
@@ -39,11 +40,11 @@ const SideNav = () => (
         formattedNodes: generateNestedPaths(nodes),
       });
       return (
-        <Aside class="menu">
+        <Aside>
           {Object.entries(formattedNodes).map(([folder, paths]) => (
             <>
-              <p className="menu-label">{folder}</p>
-              <ul>
+              <h4>{folder.split("-").map(capitalize).join(" ")}</h4>
+              <menu>
                 {paths.map(({ id, path, label }) => (
                   <li key={id}>
                     <Link to={path}>
@@ -51,7 +52,7 @@ const SideNav = () => (
                     </Link>
                   </li>
                 ))}
-              </ul>
+              </menu>
             </>
           ))}
         </Aside>
