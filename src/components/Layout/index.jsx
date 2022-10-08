@@ -16,7 +16,7 @@ const Section = styled.section`
 export const Layout = ({ children }) => (
   <>
     <Helmet>
-      <title>{"My Website"}</title>
+      <title>Frontend Notes</title>
       <meta name="description" content={""} />
       <link
         rel="stylesheet"
